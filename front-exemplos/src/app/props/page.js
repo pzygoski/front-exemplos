@@ -7,7 +7,7 @@ export default function Props(){
             id: 1,
             modelo: 'Fusca',
             ano: 1975,
-            cor: 'Rosa'
+            cor: 'Rosa',
         },
         {
             id: 2,
