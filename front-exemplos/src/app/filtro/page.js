@@ -24,8 +24,8 @@ export default function Filtro() {
                 onChange={(ev) => setBusca(ev.target.value)}
             />
             {
-                nomesBusca.map((nome) => (
-                    <li className={styles.li}>{nome}</li>
+                nomesBusca.map((nome, i) => (
+                    <li className={styles.li} key={i}>{nome}</li>
                 ))
             }
         </div>
